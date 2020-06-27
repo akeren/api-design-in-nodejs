@@ -1,0 +1,32 @@
+{
+	"name": "api-design-in-nodejs",
+	"version": "1.0.0",
+	"description": "API Design in Node.js using express and mongoDB",
+	"main": "src/server.js",
+	"scripts": {
+		"start": "NODE_ENV=production node src/server.js",
+		"dev": "nodemon src/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/akeren/api-design-in-nodejs.git"
+	},
+	"keywords": [
+		"Node.JS",
+		"Express",
+		"RESTful",
+		"MongoDB",
+		"API"
+	],
+	"author": "Kater Akeren",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/akeren/api-design-in-nodejs/issues"
+	},
+	"homepage": "https://github.com/akeren/api-design-in-nodejs#readme",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"morgan": "^1.10.0"
+	}
+}
