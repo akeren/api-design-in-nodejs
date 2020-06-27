@@ -17,16 +17,16 @@ Each topic has its own **branch**; all you need is to be switching into each bra
 
 ## Node.js Architecture behind the scenes (Node, V8, Libuv, and C++)
 
-The underlying architecture of Node.js is made up of Node, JavaScript, V8, Libuv, and C++. The five features give a higher level of abstraction that make our lives easier as Node developers with a great flexibility.
+The underlying architecture of Node.js is made up of Node, JavaScript, V8, libuv, and C++. The five features give a higher level of abstraction that makes our lives easier as Node developers with great flexibility.
 
 1. **V8 Engine**
-   - It enable Node.js to understand JavaScript codes that we write else it would had been impossible
+   - It enables Node.js to understand JavaScript codes that we write else it would have been impossible
    - It is responsible to convert Node.js codes to machine codes that the computer can actually understand and execute effectively
 2. **Libuv**
 
    - It is an open-source library with a strong focus on asynchronous **I/O** (Input/Output)
    - This layer is what gives Node.js access to operating systems, file systems, Networking, and et al
-   - It implement the most two essential features of Node.js which are the:
+   - It implements the most two essential features of Node.js which are the:
 
      - **Event Loop**
        - This is responsible for executing simple tasks like: **Callbacks**, **Network IO**, and et al
@@ -42,7 +42,7 @@ The underlying architecture of Node.js is made up of Node, JavaScript, V8, Libuv
    - **[YouTube](https://www.youtube.com/)**
    - **[Netflix](https://www.netflix.com/)** (Redeveloped using Node.js), _et al_
 
-2. **API with database behind**
+2. **API with a database behind**
    - Preferably **NoSQL** Databases
      - **MongoDB**
      - **Couchbase**
