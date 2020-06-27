@@ -13,4 +13,39 @@ app.get('/', (req, res) => {
 	});
 });
 
+app.get('/api/v1/users', (req, res) => {
+	res.status(200).json({
+		status: 'success',
+		message: 'Get All users'
+	});
+});
+
+app.get('/api/v1/users/3', (req, res) => {
+	res.status(200).json({
+		status: 'success',
+		message: 'Get a single user'
+	});
+});
+
+app.post('/api/v1/users', (req, res) => {
+	res.status(201).json({
+		status: 'success',
+		message: 'Create user'
+	});
+});
+
+app.patch('/api/v1/users/3', (req, res) => {
+	res.status(200).json({
+		status: 'success',
+		message: 'Update a user'
+	});
+});
+
+app.delete('/api/v1/users/6', (req, res) => {
+	res.status(204).json({
+		status: 'success',
+		message: 'Delete a user'
+	});
+});
+
 module.exports = app;
