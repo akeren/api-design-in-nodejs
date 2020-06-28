@@ -1,12 +1,14 @@
 # What is API?
 
-Companies like **[Github](https://github.com), [Facebook](https://facebook.com), [Netflix](https://netflix.com), [Google](https://google.com), [Twitter](https://twitter.com), [IBM](https://ibm.com), [Microsoft](https://microsoft.com)**, and lots more have given opportunity to developers and products across the globe to consume their data via the use of APIs, and the resultant effect has became a platform for them.
+Companies like **[Github](https://github.com), [Facebook](https://facebook.com), [Netflix](https://netflix.com), [Google](https://google.com), [Twitter](https://twitter.com), [IBM](https://ibm.com), [Microsoft](https://microsoft.com)**, and lots more have given opportunities to developers and products across the globe to consume their data via the use of APIs, and the resultant effect has become a platform for them.
 
 **API** (Application Programming Interface) is a piece of software that is used by another piece of software, in order to allow application to interact (exchange data) to each other via some define calls or requests that can be made, how to make them, the data format that should be used, the conventions to follow, and et al. **[Haldar](https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9) (2016)**, describes **API** as an artist performing on stage, and its users are the audience.
 
+The possibilities of APIs are really endless. Build once use everywhere in the universe!
+
 ## The RESTful Architecture
 
-The core essential concept in any **RESTful API** is the **resource**. A resource is an object with a type, associated data, relationships to other resources, and a set of methods (verbs) that operate on it. A **URL** (Uniform Resource Locator) on the other hand is the path that a resource can be located with an associated bagpack of some actions that can be performed on it.
+REST stands for Representational State Transfer, its core essential concept in any **RESTful API** is the **resource**. A resource is an object with a type, associated data, relationships to other resources, and a set of methods (verbs) that operate on it. A **URL** (Uniform Resource Locator) on the other hand is the path that a resource can be located with an associated bagpack of some actions that can be performed on it.
 
 - The core fundalmental principles of a RESTful API are:
   - Separate APIs into logical resources
